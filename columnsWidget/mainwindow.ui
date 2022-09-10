@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>931</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>30</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Изменить цвет фона</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>290</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>691</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Наименование</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Артикул</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Марка машины</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Модель машины</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Цена</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Фильтр масляный</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>W719/27</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>FORD</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>FUSION 2006</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Фильтр салонный, угольный</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>CUK2433</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>FORD</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>FUSION 2006</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>1200</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Воздушный</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>C2244</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>FORD</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>FUSION 2006</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Фильтр салонный, обычный</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>CU2433</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>FORD</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>FUSION 2006</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
